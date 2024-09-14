@@ -9,6 +9,9 @@ from sklearn.metrics import accuracy_score,classification_report
 #     def evaluate(self, ActualValue, PredictedValue):
 #         pass
 
+def resultMetrix():
+    return "Kp"
+
 def load_dataset(file_path):
     # Check if dataset file exists in the data directory
     file_path = os.path.join(file_path, 'dataset.csv')
@@ -53,5 +56,3 @@ def evaluate_model(predicted_value, actual_value):
         f.write(report)
     print(f"Model evaluation results saved to {metrics_path}")
 
-def resultMetrix():
-    return "Kp"
