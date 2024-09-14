@@ -52,3 +52,5 @@ def evaluate_model(predicted_value, actual_value):
         f.write(f"Accuracy: {accuracy}\n")
         f.write(report)
     print(f"Model evaluation results saved to {metrics_path}")
+def sample():
+    pass
