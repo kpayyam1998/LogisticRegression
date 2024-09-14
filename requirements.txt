@@ -4,4 +4,3 @@ pickle
 matplotlib
 scikit-learn
 Flask
--e .
